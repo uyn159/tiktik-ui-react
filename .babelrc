@@ -1,0 +1,13 @@
+//yarn add --dev babel-plugin-module-resolver 
+{
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ]
+  ]
+}
